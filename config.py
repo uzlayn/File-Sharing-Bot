@@ -38,7 +38,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello, {first}
-"I can store my personal files in the specified channel, and other users can access them via a special link.")
+I can store my personal files in the specified channel, and other users can access them via a special link.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
